@@ -1,0 +1,40 @@
+{
+  "uuid": "53a94a06-d802-4352-9fac-438caa1279a3",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "4a41b17b-3d06-4fb0-b2b3-009afd4fe14c",
+  "keyItems": [],
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 4,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 3,
+    "totalBattleVictoryCount": 13,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 13,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "poison": 1,
+      "normal": 3,
+      "fairy": 1,
+      "flying": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:patrat": 2,
+      "cobblemon:flaaffy": 1,
+      "cobblemon:snubbull": 2,
+      "cobblemon:watchog": 1,
+      "cobblemon:ponyta": 1,
+      "cobblemon:maschiff": 1,
+      "cobblemon:granbull": 1,
+      "cobblemon:drilbur": 1,
+      "cobblemon:mrmime": 1,
+      "cobblemon:bouffalant": 1,
+      "cobblemon:rapidash": 1
+    },
+    "aspectsCollected": {}
+  }
+}

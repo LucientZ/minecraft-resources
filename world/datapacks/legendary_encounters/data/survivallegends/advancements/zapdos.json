@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "cobblemon:thunder_stone"
+      },
+      "title": "Électhor",
+      "description": "Summon Zapdos using a Beacon and four Thunder Stones",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivallegends:allbirds",
+    "criteria": {
+      "stone_use": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "cobblemon:thunder_stone"
+            ],
+            "count": 4
+          },
+          "location": {
+            "block": {
+              "blocks": [
+               	"minecraft:beacon"
+              ],
+              "nbt": "{Levels:1}"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "stone_use"
+      ]
+    ],
+    "rewards": {
+        "function": "survivallegends:zapdos"
+    }
+  }

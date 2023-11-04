@@ -1,0 +1,165 @@
+{
+    "implemented": true,
+    "name": "marowak",
+    "nationalPokedexNumber": 105,
+    "primaryType": "ground",
+    
+    "abilities": [
+        "rockhead",
+        "lightningrod",
+        "h:battlearmor"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defence": 110,
+        "special_attack": 50,
+        "special_defence": 80,
+        "speed": 45
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            }
+        }
+    },
+    "catchRate": 120,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "features": [
+        "alolan"
+    ],
+    "baseExperienceYield": 100,
+    "experienceGroup": "erratic",
+    "eggCycles": 25,
+    "eggGroups": [
+        "monster"
+        
+    ],
+    "drops": {
+        "amount": "1",
+        "entries": [
+        {"item": "minecraft:bone", "quantityRange": "1-2", "percentage": 50}
+        ]
+    },
+    "moves": [
+        "1:falseswipe",
+        "1:growl",
+        "1:mudslap",
+        "1:tailwhip",
+        "12:headbutt",
+        "16:retaliate",
+        "20:fling",
+        "24:stompingtantrum",
+        "31:bonerush",
+        "36:focusenergy",
+        "42:endeavor",
+        "48:bonemerang",
+        "54:thrash",
+        "60:doubleedge"
+    ],
+    "labels": [
+        "gen1"
+    ],
+    "pokedex": [
+        "cobblemon.species.marowak.desc1",
+        "cobblemon.species.marowak.desc2"
+    ],
+    
+    "forms": [
+    {
+      "name": "alolan",
+      "primaryType": "ghost",
+      "secondaryType": "fire",
+      "abilities": [
+        "cursedbody",
+		"lightningrod",
+        "h:rockhead"
+      ],
+     "baseStats": {
+		"hp": 60,
+        "attack": 80,
+        "defence": 110,
+        "special_attack": 50,
+        "special_defence": 80,
+        "speed": 45
+    },
+		"catchRate": 20,
+		"maleRatio": 0.5,
+      "baseExperienceYield": 64,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "erratic",
+		"eggCycles": 15,
+		"eggGroups": [
+        "monster"       
+    ],
+    "moves": [
+        "1:doubleedge",
+        "1:falseswipe",
+		"1:firespin",
+		"1:focusenergy",
+		"1:growl",
+		"1:headbutt",
+		"1:mudslap",
+		"1:retaliate",
+		"1:tailwhip",
+        "12:flamewheel",
+        "16:hex",
+        "20:fling",
+        "24:stompingtantrum",
+        "31:bonerush",
+        "36:willowisp",
+        "42:endeavor",
+        "48:bonemerang",
+        "54:thrash",
+        "60:flareblitz"
+    ],
+      "labels": [
+        "gen1",
+        "alolan"
+      ],
+      "aspects": [
+        "alolan"
+      ],
+      "height": 1,
+      "weight": 34,
+
+      "evolutions": [],    
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 0.5,
+        "height": 0.7,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 1,
+    "weight": 1
+}

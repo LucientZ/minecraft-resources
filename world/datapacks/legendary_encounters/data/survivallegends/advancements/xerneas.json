@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "item": "cobblemon:galarica_wreath"
+      },
+      "title": "The Horned God of Life",
+      "description": "Summon Xerneas using a Beacon and a Galarica Wreath",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "survivallegends:rayquaza",
+    "criteria": {
+      "stone_use": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "cobblemon:galarica_wreath"
+            ],
+            "count": 1
+          },
+          "location": {
+            "block": {
+              "blocks": [
+               	"minecraft:beacon"
+              ],
+              "nbt": "{Levels:1}"
+            },
+            "biome": "minecraft:dark_forest"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "stone_use"
+      ]
+    ],
+    "rewards": {
+        "function": "survivallegends:xerneas"
+    }
+  } 

@@ -1,0 +1,52 @@
+{
+  "uuid": "7d7545c4-3713-4e43-bf65-3249f44af844",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "1465c3de-e956-4d7c-8791-5216ced76add",
+  "keyItems": [],
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 21,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 3,
+    "totalBattleVictoryCount": 29,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 29,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 1,
+    "totalTypeCaptureCounts": {
+      "normal": 9,
+      "flying": 2,
+      "psychic": 1,
+      "water": 6,
+      "fire": 1,
+      "ghost": 1,
+      "poison": 3,
+      "rock": 1,
+      "ground": 2,
+      "fairy": 1,
+      "grass": 1,
+      "ice": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:bunnelby": 1,
+      "cobblemon:deerling": 2,
+      "cobblemon:pidgey": 2,
+      "cobblemon:seedot": 1,
+      "cobblemon:caterpie": 1,
+      "cobblemon:eevee": 1,
+      "cobblemon:magikarp": 1,
+      "cobblemon:elekid": 1,
+      "cobblemon:psyduck": 1,
+      "cobblemon:slugma": 1,
+      "cobblemon:zubat": 1,
+      "cobblemon:golett": 1,
+      "cobblemon:rattata": 1,
+      "cobblemon:meowth": 1,
+      "cobblemon:poliwag": 1
+    },
+    "aspectsCollected": {}
+  }
+}

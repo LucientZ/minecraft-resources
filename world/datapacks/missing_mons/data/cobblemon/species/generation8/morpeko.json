@@ -1,0 +1,96 @@
+{
+    "implemented": true,
+    "name": "morpeko",
+    "nationalPokedexNumber": 0877,
+    "primaryType": "electric",
+    "secondaryType": "dark",
+    "abilities": [
+        "hungerswitch"
+        
+        
+    ],
+    "baseStats": {
+        "hp": 58,
+        "attack": 95,
+        "defence": 58,
+        "special_attack": 70,
+        "special_defence": 58,
+        "speed": 97
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": false
+            }
+        }
+    },
+    "catchRate": 60,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    
+    "baseExperienceYield": 200,
+    "experienceGroup": "erratic",
+    "eggCycles": 25,
+    "eggGroups": [
+        "fairy",
+        "field"
+    ],
+    "drops": {
+        "amount": "1",
+        "entries": [
+        {"item": "minecraft:wheat_seeds", "quantityRange": "1-2", "percentage": 50}
+        ]
+    },
+    "moves": [
+        "1:tailwhip",
+        "1:thundershock",
+        "5:leer",
+        "10:powertrip",
+        "15:quickattack",
+        "20:flatter",
+        "25:bite",
+        "30:spark",
+        "35:torment",
+        "40:agility",
+        "45:bulletseed",
+        "50:crunch",
+        "55:aurawheel",
+        "60:thrash"
+    ],
+    "labels": [
+        "gen8"
+    ],
+    "pokedex": [
+        "cobblemon.species.morpeko.desc1",
+        "cobblemon.species.morpeko.desc2"
+    ],
+    "baseScale": 0.5,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1.0,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 1,
+    "weight": 1
+}
